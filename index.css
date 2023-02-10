@@ -1,0 +1,102 @@
+body
+{
+   background-color: blanchedalmond;
+}
+@font-face {
+    font-family:"Montserrat Thin";
+    src: url("./font/Montserrat-VariableFont_wght.ttf") format("Truetype");
+}
+@font-face {
+    font-family: "Fraunces 144pt SuperSoft Black";
+    src: url("./font/Fraunces_144pt_SuperSoft-Black.ttf") format("Truetype");
+}
+.perfume
+{
+    font-family:"Montserrat Thin";
+    font-weight: 500;
+    margin-left: 20px;
+    color:hsl(228, 12%, 48%);
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    word-spacing:5px;
+}
+.text
+{
+    font-family:"Montserrat Thin";
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    top:150px;
+    color:hsl(228, 12%, 48%);
+}
+.titre
+{
+    font-family: "Fraunces 144pt SuperSoft Black";
+    font-weight: 800;
+    margin-left: 20px;
+    position: absolute;
+    top: 30px;
+    font-size:25px ;
+}
+.prix1
+{
+    font-family: "Fraunces 144pt SuperSoft Black";
+    font-weight: 700;
+    position: absolute;
+    top:280px;
+    font-size: 25px;
+    color: green;
+    margin-left: 20px;
+}
+.prix2
+{
+    font-size: 12px;
+    position: absolute;
+    top:300px;
+    left: 120px;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+}
+.tout
+{
+    position: relative;
+    width:700px;
+    height: 400px;
+    left: 395px;
+    top: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+.section
+{
+    display: inline-block;
+    position: relative;
+    bottom: 420px;
+    left: 267px;
+    height: 400px;
+    width:250px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+.attribution
+{
+    position: absolute;
+    top: 420px;
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+button
+{
+    position: absolute;
+    text-align: center;
+    background-color: green;
+    color: white;
+    width: 150px;
+    height:40px;
+    top:350px;
+    left:40px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: aliceblue
+}
